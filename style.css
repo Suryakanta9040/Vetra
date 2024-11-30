@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   
+    background-color: hsl(13, 52%, 11%);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /*background-color: red;*/
+}
+
+#part2{
+    height: 100%;
+    width: 68%;
+    background-color: #3473b2;
+    background-image:url(./couple.png);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(14, 54%, 11%, 0.462);
+    display: flex;
+     
+}
+
+#part3{
+    height: 100%;
+    width: 7%;
+    /*background-color: rgb(26, 206, 149);*/
+}
+#text-div{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+   /* background-color: red;*/
+    left: 5%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 80px;
+    font-family: Nulshock;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 75px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /*background-color: red;*/
+    background-image: url(./output.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#over-lay-in{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(14, 50%, 21%, 0.263);
+    display: flex;
+     
+}
+#vrtical-text{
+    position: absolute;
+    right: -20%;
+    z-index: 5;
+    top: 45%;
+    transform-origin: 0% 0%;
+   /* width: 100%;*/
+    /*background-color: red;*/
+
+}
+#vrtical-text h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: 10px;
+    transform: rotate(90deg);
+    
+    font-family: Nulshock;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    color: #fff;
+    left: 5%;
+    top: 5%;
+  
+}
+#nav img{
+    height: 50px;
+
+}
+#nav h5{
+    font-size: 20px;    
+    font-family: roboto;
+
+}
